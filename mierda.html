@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Básica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .container {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .producto {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      max-height: 150px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>La tienda de PUFFY</h1>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+    <a href="#">Cesta</a>
+  </nav>
+
+  <main class="container">
+    <div class="producto">
+      <img src="https://media.discordapp.net/attachments/1406708490550120573/1417512628082839613/image0.jpg?ex=68cac102&is=68c96f82&hm=92c18e18e369313c6106fe7b4dbb1b0160b15133fa923f4c69bcb46cc9b753a2&=&format=webp" alt="Producto 1">
+      <h2>Producto 1</h2>
+      <p>€ 19,99 (view_database2_vitedapi.es En Stock) </p>
+      <button>Añadir al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://imgs.search.brave.com/iv8_xo_OY4OYQFWgtnBPYCPYQF2JQ72Wdo1jWvgRUlE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvOGFwZWV3/bDhtaGJlMS5qcGVn" alt="Producto 2">
+      <h2>Producto 2</h2>
+      <p>€ 19,99 (view_database2_vitedapi.es En Stock)</p>
+      <button>Añadir al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://imgs.search.brave.com/Wh_rup0j98dW1aTGxFjHLCB3FHrRDdCTsckujorU6no/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZnVu/bnktY2F0cy1waWN0/dXJlcy15aXZxcjFu/ZmE4eTUyeTYwLmpw/Zw" alt="Producto 3">
+      <h2>Producto 3</h2>
+      <p>€ 19,99 (view_database2_vitedapi.es En Stock)</p>
+      <button>Añadir al carrito</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 La tienda de la marita. Todos los derechos reservados.
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
